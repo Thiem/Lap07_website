@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example 01,02,03,04 session 13</title>
+    <script>
+        // example 01
+        var loanAmount = 34500;
+        var interest = 8;
+        var interestAmount, totalAmount;
+        interestAmount = loanAmount * (interest / 100);
+        totalAmount = loanAmount + interestAmount;
+        document.write("<b>Total amount to be paid ($): </b>" + totalAmount + "<br/>");
+        // example 02
+        var number = 3;
+        alert('Number after increment = ' + ++number);
+        alert('Number after decrement = ' + number--);
+        // example 03
+        var firstNumber = 3;
+        var secondNumber = 4;
+        document.write('First number is greater than the second number: ' + (firstNumber > secondNumber));
+        document.write('<br/>First number is less than the second number: ' + (firstNumber < secondNumber));
+        document.write('<br/>First number is equal to the second number: ' + (firstNumber == secondNumber));
+        // example 04
+        var name = "John";
+        var age = 23;
+        alert('John’s age is greater than or equal to 23 years : ' + ((name=="John") && (age >= 23)));
+    </script>
+</head>
+<body>
+
+</body>
+</html>
